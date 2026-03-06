@@ -11,12 +11,12 @@ OUTPUT_DIR.mkdir(exist_ok=True)
 
 # ===== IMAGE CONFIG =====
 # -> tấm mail
-TARGET_SIZE = (1032, 1478)
-MAX_SIZE_KB = 270
+# TARGET_SIZE = (1032, 1478)
+# MAX_SIZE_KB = 270
 
 # -> hình detail (kích thước)
-# TARGET_SIZE = (900, 900)
-# MAX_SIZE_KB = 80
+TARGET_SIZE = (900, 900)
+MAX_SIZE_KB = 80
 
 MIN_QUALITY = 40
 START_QUALITY = 90
